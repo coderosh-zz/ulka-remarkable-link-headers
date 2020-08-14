@@ -1,7 +1,7 @@
 {
   "name": "ulka-remarkable-heading-anchors",
   "version": "1.0.0",
-  "description": "Customizable remarkable Plugin for ulka static site genrator to add ids and anchors to the heading tags",
+  "description": "Customizable remarkable plugin for ulka static site genrator to add ids and anchors to the heading tags",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
