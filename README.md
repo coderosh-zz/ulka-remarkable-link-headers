@@ -1,14 +1,14 @@
-# ulka-remarkable-heading-anchors
+# ulka-remarkable-link-headers
 
 Remarkable Plugin for ulka static site genrator to add ids and anchors to the heading tags
 
 ## Installation
 
 ```
-npm i ulka-remarkable-heading-anchors
+npm i ulka-remarkable-link-headers
 ```
 
-Add `ulka-remarkable-heading-anchors` to plugins array in `ulka-config.js`
+Add `ulka-remarkable-link-headers` to plugins array in `ulka-config.js`
 
 ```js
 // ulka-config.js
@@ -16,14 +16,14 @@ module.exports = {
     ...
     plugins: [
         ...
-        "ulka-remarkable-heading-anchors",
+        "ulka-remarkable-link-headers",
     ],
 }
 ```
 
 ## Customization
 
-To customize `ulka-remarkable-heading-anchors` to your need, you need to pass plugin as object to plugins array.
+To customize `ulka-remarkable-link-headers` to your need, you need to pass plugin as object to plugins array.
 
 ```js
 // ulka-config.js
@@ -32,7 +32,7 @@ module.exports = {
     plugins: [
         ...
         {
-            resolve: "ulka-remarkable-heading-anchors",
+            resolve: "ulka-remarkable-link-headers",
             options: {
                // ...options
             }
@@ -43,7 +43,7 @@ module.exports = {
 
 ## Options
 
-There are 6 customizable options for `ulka-remarkable-heading-anchors`
+There are 6 customizable options for `ulka-remarkable-link-headers`
 
 ```js
 // default values

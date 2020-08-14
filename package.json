@@ -1,5 +1,5 @@
 {
-  "name": "ulka-remarkable-heading-anchors",
+  "name": "ulka-remarkable-link-headers",
   "version": "1.0.0",
   "description": "Remarkable plugin for ulka static site genrator to add ids and anchors to the heading tags",
   "main": "index.js",
@@ -10,19 +10,19 @@
   "keywords": [
     "ulka",
     "ulka-plugin",
-    "ulka-ssg",
-    "ulka-remarkable"
+    "ulka-remarkable",
+    "ulka-remarkable-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors.git"
+    "url": "git+https://github.com/acharyaroshanji/ulka-remarkable-link-headers.git"
   },
   "author": "Roshan Acharya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors/issues"
+    "url": "https://github.com/acharyaroshanji/ulka-remarkable-link-headers/issues"
   },
-  "homepage": "https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors#readme",
+  "homepage": "https://github.com/acharyaroshanji/ulka-remarkable-link-headers#readme",
   "dependencies": {
     "slugify": "^1.4.5"
   },
