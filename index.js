@@ -6,6 +6,7 @@ const defaultOptions = {
   anchorValue: "#",
   headingClassName: (hLevel) => `ulka-heading-${hLevel}`,
   anchorClassName: (hLevel) => `ulka-heading-anchors-${hLevel}`,
+  slugifyOptions = {}
 };
 
 module.exports = {
@@ -40,7 +41,7 @@ module.exports = {
             anchorClassName = options.anchorClassName;
           }
 
-          const headerId = slugify(tokens[idx + 1].content, { lower: true });
+          const headerId = slugify(tokens[idx + 1].content, { lower: true, ...options.slugifyOptions });
 
           const anchor = options.setAnchor
             ? `<a id="${headerId}-anchor" class="${anchorClassName}" href="#${headerId}">${options.anchorValue}</a>`
