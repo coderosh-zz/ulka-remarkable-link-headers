@@ -1,22 +1,30 @@
 {
-  "name": "ulka-remarkable-header-anchors",
+  "name": "ulka-remarkable-heading-anchors",
   "version": "1.0.0",
-  "description": "",
+  "description": "Customizable remarkable Plugin for ulka static site genrator to add ids and anchors to the heading tags",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint .",
+    "prepublishOnly": "npm run eslint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/acharyaroshanji/ulka-remarkable-header-anchors.git"
+    "url": "git+https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors.git"
   },
   "author": "Roshan Acharya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/acharyaroshanji/ulka-remarkable-header-anchors/issues"
+    "url": "https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors/issues"
   },
-  "homepage": "https://github.com/acharyaroshanji/ulka-remarkable-header-anchors#readme",
+  "homepage": "https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors#readme",
   "dependencies": {
     "slugify": "^1.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
   }
 }

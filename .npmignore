@@ -1,0 +1,7 @@
+/.github
+.prettierrc
+.prettierignore
+.eslintignore
+.eslintrc.json
+.huskyrc.json
+.lintstagedrc
