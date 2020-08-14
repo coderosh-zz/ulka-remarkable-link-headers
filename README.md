@@ -1,6 +1,6 @@
 # ulka-remarkable-heading-anchors
 
-Customizable remarkable Plugin for ulka static site genrator to add ids and anchors to the heading tags
+Remarkable Plugin for ulka static site genrator to add ids and anchors to the heading tags
 
 ## Installation
 

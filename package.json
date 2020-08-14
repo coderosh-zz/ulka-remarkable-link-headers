@@ -1,12 +1,18 @@
 {
   "name": "ulka-remarkable-heading-anchors",
   "version": "1.0.0",
-  "description": "Customizable remarkable plugin for ulka static site genrator to add ids and anchors to the heading tags",
+  "description": "Remarkable plugin for ulka static site genrator to add ids and anchors to the heading tags",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint .",
     "prepublishOnly": "npm run eslint"
   },
+  "keywords": [
+    "ulka",
+    "ulka-plugin",
+    "ulka-ssg",
+    "ulka-remarkable"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acharyaroshanji/ulka-remarkable-heading-anchors.git"
